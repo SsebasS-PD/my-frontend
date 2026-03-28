@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/director';
+const API_URL = 'https://my-backend-ssebass.onrender.com/api/director';
 
 export const getDirectores = () => axios.get(API_URL);
 

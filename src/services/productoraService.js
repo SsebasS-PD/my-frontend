@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/productora';
+const API_URL = 'https://my-backend-ssebass.onrender.com/api/productora';
 
 export const getProductoras = () => axios.get(API_URL);
 

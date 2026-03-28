@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // URL base del backend - todas las peticiones de Genero van aquí
-const API_URL = 'http://localhost:4000/api/genero';
+const API_URL = 'https://my-backend-ssebass.onrender.com/api/genero';
 
 // GET - obtener todos los géneros
 export const getGeneros = () => axios.get(API_URL);
